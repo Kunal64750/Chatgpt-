@@ -1,0 +1,214 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.containerAll {
+    height: 100vh;
+    background-color: rgb(180, 149, 149);
+    display: flex;
+}
+.container1 {
+    background-color: rgb(213, 213, 213);
+    height: 100vh;
+    width: 300px;
+    overflow-y: auto;
+    font-size: 110%;
+}
+
+.block:hover {
+    background-color: rgb(203, 203, 203);
+}
+
+.block {
+    margin-bottom: 2px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+    cursor: pointer;
+    transition-property: background-color;
+    transition-duration: 1s;
+    transition-timing-function: ease;
+}
+
+.block:hover {
+    background-color: aliceblue;
+}
+.mainId {
+    position: absolute;
+    bottom: 0px;
+    width: 290px;
+}
+
+.chats {
+    position: absolute;
+    bottom: 70px;
+    width: 290px;
+    
+}
+
+.mainId {
+    display: flex;
+}
+
+.idIcon {
+    border-radius: 50%;
+    background-color: rgb(7, 60, 134);
+    height: 30px;
+    width: 30px;
+}
+
+.name {
+    
+    font-size: large;
+}
+
+.free {
+    
+    color:rgb(78, 78, 78);
+    font-size: 90%
+}
+
+.namefree {
+    margin-right: 50px;
+    margin-left: 10px;
+}
+
+.upgrade {
+    background-color: rgb(255, 255, 255);
+    border: none;
+    border: 1px solid rgb(160, 160, 160);
+    height: 30px;
+    width: 80px;
+    border-radius: 20px;
+    cursor: pointer;
+}
+
+.gpt {
+    display: flex;
+    align-items: center;
+    
+}
+
+.gptText {
+    margin-left: 10px;
+}
+
+.blank {
+    height: 20px;
+}
+
+.chatgptLogo {
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    
+}
+
+.chatgpt {
+    font-size: 200%;
+    
+}
+
+.huge {
+    margin-right: 150px;
+}
+
+.inputbox {
+    display: flex;
+    justify-content: center;
+}
+.input {
+    position: absolute;
+    bottom: 35px;
+    width: 110vh;
+    height: 60px;
+    border-bottom-right-radius: 40px;
+    border-top-right-radius: 40px;
+    border: none;
+    font-size: 120%;
+    padding-left: 10px;
+    border-top: 2px solid black;
+    border-bottom: 2px solid black;
+    border-right: 2px solid black;
+}
+
+.plus {
+    position: absolute;
+    left: 470px;
+    bottom: 35px;
+    width: 50px;
+    height: 60px;
+    border: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-bottom-left-radius: 40px;
+    border-top-left-radius: 40px;
+    background-color: white;
+    border-top: 2px solid black;
+    border-bottom: 2px solid black;
+    border-left: 2px solid black;
+}
+.container2 {
+    background-color: rgb(255, 255, 255);
+    height: 100vh;
+    width: 1250px;
+
+}
+
+.lastLine {
+    position: absolute;
+    bottom: 10px;
+    cursor: pointer;
+    color: rgb(101, 101, 101);
+    font-weight: 600;
+}
+
+.plusText {
+    color:rgb(102, 102, 102);
+
+    font-size: 200%;
+    font-weight: bolder;
+    cursor: pointer;
+}
+
+.chatgptText {
+    font-size: 120%;
+    padding: 10px;
+}
+
+.userText {
+    position: absolute;
+    bottom: 110px;
+    right: 30vh;
+    background-color: rgb(203, 203, 203);
+    text-align: end;
+    font-size: 120%;
+    padding: 8px;
+    border-radius: 20px;
+
+}
+.hide {
+    display: none;
+}
+
+.share {
+    position: absolute;
+    top: 10px;
+    right: 10vh;
+    cursor: pointer;
+}
+
+.threedots {
+    position: absolute;
+    top: 10px;
+    right: 6vh;
+    cursor: pointer;
+}
+
+.darkmode {
+    background-color: aquamarine;
+}
